@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+
+:root {
+  --primary-color: #22254b;
+  --secondary-color: #373b69;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: var(--primary-color);
+  font-family: "Roboto", sans-serif;
+  max-width: 1024px;
+  min-width: 600px;
+  max-height: 100vh;
+}
+
+ul {
+  margin: 1rem;
+}
+
+.header {
+  font-size: 36px;
+  margin-bottom: 0.5rem;
+}
+
+.photo-container {
+  text-align: center;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.text {
+  margin: 0.5em 0;
+  font-size: 0.5em;
+}
+
+.courses-list {
+  margin: 0.5em 1rem;
+  font-size: 0.5em;
+}
+
+.photo {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 0 1px 4px rgb(0 0 0 / 60%);
+}
+
+.skills-list li,
+li {
+  margin-bottom: 1rem;
+}
+
+.cv {
+  border: black solid 1px;
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  max-width: 1024px;
+}
+
+.left-side {
+  display: flex;
+  padding: 1rem;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: stretch;
+  width: 35%;
+  background-color: var(--secondary-color);
+  color: white;
+}
+
+.right-side {
+  font-size: 36px;
+  width: 75%;
+  padding: 1rem;
+  color: var(--secondary-color);
+  background-color: white;
+}
+
+.underline {
+  width: 100%;
+  height: 2px;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+  background-color: white;
+}
+
+.underline-right {
+  width: 100%;
+  height: 2px;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+  background-color: var(--secondary-color);
+}
